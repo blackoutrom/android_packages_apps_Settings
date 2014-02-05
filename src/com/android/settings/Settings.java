@@ -381,7 +381,8 @@ public class Settings extends PreferenceActivity
         ProfilesSettings.class.getName(),
         PerformanceSettings.class.getName(),
         PolicyNativeFragment.class.getName(),
-        com.android.settings.cyanogenmod.PrivacySettings.class.getName()
+        com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
+        com.android.settings.quicksettings.QuickSettingsTiles.class.getName()
     };
 
     @Override
@@ -1217,4 +1218,5 @@ public class Settings extends PreferenceActivity
     public static class BlacklistSettingsActivity extends Settings { /* empty */ }
     public static class BlackoutSettingsActivity extends Settings { /* empty */ }
     public static class HaloSettingsActivity extends Settings { /* empty */ }
+    public static class QuickSettingsConfigActivity extends Settings { /* empty */ }
 }

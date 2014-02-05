@@ -1707,13 +1707,6 @@
 
         <activity android:name="Settings$HaloSettingsActivity"
                 android:label="@string/system_settings_title"
-                android:taskAffinity=""
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.blackout.Halo" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/halo_settings" />
@@ -1724,6 +1717,21 @@
         <activity android:name=".InitD" />
 
         <!-- End BlackoutROM Activities -->
+
+
+        <activity android:name="Settings$QuickSettingsConfigActivity"
+                android:label="@string/tile_picker_title"
+                android:taskAffinity=""
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.quicksettings.QuickSettingsTiles" />
+        </activity>
+
+        <activity android:name=".quicksettings.QuickSettingsTiles" />
 
         <activity android:name=".cyanogenmod.AutoBrightnessSetup"
                 android:excludeFromRecents="true"
