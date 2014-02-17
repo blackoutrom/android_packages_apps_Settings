@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2013 The CyanogenMod Project
+     Copyright (C) 2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,11 +16,11 @@
 -->
 <resources>
     <string-array name="wifi_countrycode_entries">
-        <item>Estados Unidos</item>
+        <item>Estaos Xuníos</item>
         <item>Canadá, Taiwán</item>
-        <item>Alemania</item>
+        <item>Alemaña</item>
         <item>Europa</item>
-        <item>Japón, Rusia</item>
+        <item>Xapón, Rusia</item>
         <item>Australia</item>
         <item>China</item>
         <item>Corea</item>
@@ -29,13 +29,13 @@
         <item>Brasil</item>
     </string-array>
     <string-array name="profile_entries">
-        <item>Activo</item>
-        <item>Inactivo</item>
-        <item>No sobrescribir</item>
+        <item>Activu</item>
+        <item>Inactivu</item>
+        <item>Nun sobrescribir</item>
     </string-array>
     <string-array name="profile_connection_entries">
-        <item>Deshabilitado</item>
-        <item>Habilitado</item>
+        <item>Deshabilitáu</item>
+        <item>Habilitáu</item>
     </string-array>
     <string-array name="entries_screentimeout_widget">
         <item>15s | 1m | 5m</item>
