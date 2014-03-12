@@ -14,31 +14,31 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string-array name="wifi_countrycode_entries">
-        <item>Ηνωμένες Πολιτείες</item>
-        <item>Καναδάς, Ταϊβάν</item>
-        <item>Γερμανία</item>
-        <item>Ευρώπη</item>
-        <item>Ιαπωνία, Ρωσία</item>
-        <item>Αυστραλία</item>
-        <item>Κίνα</item>
-        <item>Κορέα</item>
-        <item>Τουρκία</item>
-        <item>Σιγκαπούρη</item>
-        <item>Βραζιλία</item>
+        <item>Estados Unidos</item>
+        <item>Canadá, Taiwán</item>
+        <item>Alemania</item>
+        <item>Europa</item>
+        <item>Japón, Rusia</item>
+        <item>Australia</item>
+        <item>China</item>
+        <item>Corea</item>
+        <item>Turquía</item>
+        <item>Singapur</item>
+        <item>Brasil</item>
     </string-array>
     <string-array name="profile_entries">
-        <item>Ενεργό</item>
-        <item>Ανενεργό</item>
-        <item>Να μην παρακαμφθεί</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
+        <item>No sobrescribir</item>
     </string-array>
     <string-array name="profile_connection_entries">
-        <item>Ανενεργό</item>
-        <item>Ενεργό</item>
+        <item>Deshabilitado</item>
+        <item>Habilitado</item>
     </string-array>
     <string-array name="entries_screentimeout_widget">
-        <item>15δ | 1λ | 5λ</item>
-        <item>30δ | 2λ | 5λ</item>
+        <item>15s | 1m | 5m</item>
+        <item>30s | 2m | 5m</item>
     </string-array>
 </resources>
